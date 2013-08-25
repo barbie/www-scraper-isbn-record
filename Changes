@@ -1,6 +1,7 @@
 Revision history for WWW::Scraper::ISBN::Record
 ===============================================
 
+0.18    2013-08-25
         - New Maintainer: Barbie.
         - move module into lib directory structure.
         - change file dates changed to meet W3CDTF standards.
