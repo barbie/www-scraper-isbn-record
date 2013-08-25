@@ -1,5 +1,8 @@
 Revision history for Perl extension WWW::Scraper::ISBN::Record.
 
+        - New Maintainer: Barbie.
+        - move module into lib directory structure.
+
 0.17 - 04/06/2004 - A. Schamp
 	Removed exporter and perl version stuff
 	at user request.
