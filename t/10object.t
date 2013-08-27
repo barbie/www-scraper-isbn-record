@@ -1,11 +1,14 @@
 #!/usr/bin/perl -w
 use strict;
 
-use Test::More tests => 10;
+use Test::More tests => 12;
 
 use WWW::Scraper::ISBN::Record;
 
 my $record = WWW::Scraper::ISBN::Record->new();
+isa_ok($record,'WWW::Scraper::ISBN::Record');
+my $record2 = $record->new();
+isa_ok($record2,'WWW::Scraper::ISBN::Record');
 
 my %defaults = (
     isbn        => undef,
