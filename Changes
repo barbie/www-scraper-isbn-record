@@ -3,6 +3,7 @@ Revision history for WWW::Scraper::ISBN::Record
 
         - American dates!
         - cleaned up code.
+        - added new test script.
 
 0.18    2013-08-25
         - New Maintainer: Barbie.

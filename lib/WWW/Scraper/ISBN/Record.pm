@@ -20,13 +20,13 @@ sub new {
 	return $self;
 }
 
-sub isbn        { my $self = shift; return $self->accessor('ISBN',@_};      }
-sub found       { my $self = shift; return $self->accessor('FOUND',@_};     }
-sub found_in    { my $self = shift; return $self->accessor('FOUND_IN',@_};  }
-sub book        { my $self = shift; return $self->accessor('BOOK',@_};      }
-sub error       { my $self = shift; return $self->accessor('ERROR',@_};     }
+sub isbn        { my $self = shift; return $self->_accessor('ISBN',@_)     }
+sub found       { my $self = shift; return $self->_accessor('FOUND',@_)    }
+sub found_in    { my $self = shift; return $self->_accessor('FOUND_IN',@_) }
+sub book        { my $self = shift; return $self->_accessor('BOOK',@_)     }
+sub error       { my $self = shift; return $self->_accessor('ERROR',@_)    }
 
-sub accessor {
+sub _accessor {
 	my $self     = shift;
 	my $accessor = shift;
 	if (@_) { $self->{$accessor} = shift };
