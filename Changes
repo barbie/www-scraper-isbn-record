@@ -1,5 +1,7 @@
-Revision history for WWW::Scraper::ISBN::Record
-===============================================
+Revision history for WWW-Scraper-ISBN-Record
+============================================
+
+        - fixed distribution name in META.
 
 0.20    2014-04-06
         - added LICENSE file.

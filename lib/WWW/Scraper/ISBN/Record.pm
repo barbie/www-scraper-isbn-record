@@ -5,6 +5,9 @@ use warnings;
 
 our $VERSION = '0.20';
 
+#----------------------------------------------------------------------------
+# Public API
+
 sub new {
 	my $proto = shift;
 	my $class = ref($proto) || $proto;
